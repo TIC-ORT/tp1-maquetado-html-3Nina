@@ -1,0 +1,285 @@
+body{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+header{
+    height: 33vh;
+    width: 100vw;  
+}
+
+.rectángluos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.rec{
+    width: 41vw;
+    height: 9vh;
+    background-color: #ff9978;
+    margin: 9vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cuad{
+    width: 9vh;
+    height: 9vh;
+    background-color: #656a73;
+}
+
+.cuatro{ 
+    width: 100%;
+    height: 92%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+h3{
+    margin-top: 30vh;
+    background-color: #cccbca;
+    width: 13vw;
+    height: 2.5vh;
+}
+
+.blan{
+    background-color: white;
+    margin-right: 5vw;
+}
+
+nav{
+    height: 34vh;
+    width: 100vw; 
+    background-color: #c4edf1;
+    display: flex;
+    justify-content: center;
+}
+
+article{
+    height: 100%;
+    width: 43%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+aside{
+    height: 100%;
+    width: 57%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.cuadradoN{
+    height: 60%;
+    width: 23%;
+    background-color: #91d3d9;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.recN{
+    height: 6vh;
+    width: 40vw;
+    background-color: #656a73;
+}
+
+.uno{
+    height: 3vh;
+    width: 40vw;
+    background-color: #fff;
+    margin-top: 3vh;
+    font-size: 2vh;
+    text-align: center;
+}
+
+.dos{
+    height: 3vh;
+    width: 40vw;
+    background-color: #fff;
+    margin-top: 0.5vh;
+    font-size: 2vh;
+    text-align: center;
+}
+
+.tres{
+    height: 2.8vh;
+    width: 25vw;
+    background-color: #fff;
+    margin-top: 0.01vh;
+    margin-left: 8vw;
+    font-size: 2vh;
+    text-align: center;
+}
+
+li{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+    margin-right: 2vw;
+    font-size: 80%;
+}
+
+footer{
+    height: 33vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.mitiA{
+    height: 70%;
+    width: 100%;
+}
+
+.cuadrados{
+    height: 32vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+h4{
+    background-color: #cccbca;
+    height: 60%;
+    width: 9.5%;
+}
+
+.izq{
+    background-color: #ff9978;
+    margin-left: -2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.rayas{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} 
+
+.t{
+    width: 5vw;
+    background-color: #f0724d;
+    margin-top: 5vh;
+    margin-left: 1.2vw;
+    font-size: 2vh;
+    text-align: center;
+}
+.primero{
+    background-color: #fff;
+    width: 6vw;
+    margin-left: 1.2vw;   
+    margin-top: -0.5vh;
+    font-size: 2vh;
+}
+
+.segundo{
+    background-color: #fff;
+    width: 6vw;
+    margin-left: 1.2vw;   
+    margin-top: -2vh;
+    font-size: 2vh;
+}
+
+.ultimo{
+    background-color: #fff;
+    width: 4vw;
+    margin-left: 1.2vw;  
+    margin-top: -2vh;  
+}
+
+.centro{
+    background-color: #abe0e5;
+    margin-left: -2vw;
+}
+
+.der{
+    background-color: #ffc86d;
+    margin-left: -2vw;
+}
+
+.miti2{
+    width: 100%;
+    height: 30%;
+}
+
+.raytas{
+    width: 98%;
+    height: 100%;
+    margin-top: -1.3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.rA{
+    width: 10%;
+    height: 20%;
+    background-color: #656a73;
+    font-size: smaller;
+    
+}
+
+.raytas2{
+    margin-top: -7vh;
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.rB{
+    width: 10%;
+    height: 16%;
+    background-color: #CCCBCA;
+    font-size: smaller;
+}
+
+.raytas3{
+    margin-top: -31vh;
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.rC1{
+    width: 6%;
+    height: 20%;
+    margin-left: -4vw;
+    background-color: #CCCBCA;
+    font-size: smaller;
+
+}
+
+.rC2{
+    width: 6%;
+    height: 20%;
+    margin-left: 0vw;
+    background-color: #CCCBCA;
+    font-size: smaller;
+}
+
+.rC3{
+    width: 6%;
+    height: 20%;
+    margin-left: 0vw;
+    background-color: #CCCBCA;
+    font-size: smaller;
+}
